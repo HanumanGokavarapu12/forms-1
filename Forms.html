@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <title>FORMS</title>
+    </head>
+    <body>
+        <h1>Software Developer Job Application Form</h1>
+           <form action="./submit.txt">
+             <fieldset>
+                <legend>Personal Information</legend>
+                   <p><label for="Full Name">Full Name:</label>
+                       <input type="text" id="Full Name" required>
+                       <br>
+                    </p> 
+                    <p><label for="Email">Email:</label>
+                        <input type="text" id="Email" required>
+                        <br>
+                    </p>
+                    <p><label for="Phone Number">Phone Number:</label>
+                        <input type="text" id="Phone Number">
+                        <br>
+                    </p>
+                    <br>
+             </fieldset>
+             <fieldset>
+                <legend>Jod Details</legend>
+                    <p><label for="Position Applied for">Position Applied for:</label>
+                       <input type="" id="Position Applied for" value="Software Developer" readonly>
+                       <br>
+                    </p>
+                    <p><label for="Years of Experience">Years of Experience:</label>
+                        <input type="text" id="Years of Experience">
+                        <br>
+                    </p>
+                    <p><label for="Technical Skills">Technical Skills:</label>
+                        <input type="text" id="Technical Skills">
+                        <br>
+                    </p> 
+                    <p><label for="Preferred Location">Preferred Location:</label>
+                        <select name="" id="Preferred Location">
+                            <option value="All Locations">Remote</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Banglore">Banglore</option>
+                            <option value="Chennai">Chennai</option>
+                        </select>
+                        <br>
+                    </p>    
+                    <p><label for="">Upload Resume:</label>
+                        <input type="File" name="Upload Resume" id="Resume">
+                        <br>
+                    </p>       
+             </fieldset>
+             <p><input type="submit"  value="Submit Application"></p>
+           </form>
+    </body>
+</html>
+    
